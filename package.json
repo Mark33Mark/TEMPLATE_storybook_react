@@ -1,0 +1,55 @@
+{
+  "name": "project-name-here-please",
+  "version": "0.0.1",
+  "description": "description of your app here.",
+  "author": "Mark Watson <mark@watsonised.me> (https://get.watsonised.me)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chromaui/intro-storybook-react-template"
+  },
+  "main": "main.jsx",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "preview": "vite preview",
+    "build": "vite build",
+    "storybook": "storybook dev -p 6006",
+    "build:storybook": "storybook build",
+    "init-msw": "msw init public/"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7",
+    "react-redux": "^9.3.0"
+  },
+  "devDependencies": {
+    "@reduxjs/toolkit": "^2.12.0",
+    "@storybook/addon-a11y": "^10.4.6",
+    "@storybook/addon-docs": "^10.4.6",
+    "@storybook/addon-vitest": "^10.4.6",
+    "@storybook/react-vite": "^10.4.6",
+    "@vitejs/plugin-react": "^6.0.2",
+    "@vitest/browser-playwright": "^4.1.9",
+    "@vitest/coverage-v8": "^4.1.9",
+    "globals": "^17.7.0",
+    "msw": "^2.14.6",
+    "msw-storybook-addon": "^2.0.7",
+    "playwright": "^1.61.0",
+    "sass": "^1.101.0",
+    "storybook": "^10.4.6",
+    "vite": "^8.0.16",
+    "vitest": "^4.1.9"
+  },
+  "overrides": {
+    "jackspeak": "2.1.1"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "msw": {
+    "workerDirectory": [
+      "public"
+    ]
+  }
+}
