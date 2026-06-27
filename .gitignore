@@ -25,10 +25,10 @@ jspm_packages/
 dist/
 dist-ssr/
 build/
+storybook-static/
 out/
 .output/
 .netlify
-
 
 
 # SolidStart specific build directories
