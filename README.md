@@ -12,7 +12,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/mark33mark/TEMPLATE_storybook_react">
-    <img src="assets/generic_animated.svg" alt="Logo" width="80" height="80">
+    <img src="readme_assets/generic_animated.svg" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Storybook with React framework/h3>
@@ -96,7 +96,7 @@ A Storybook component library using the React framework, a rework of [Storybook'
 |   └── mockServiceWorker.js
 ├── src
 |   ├── Main.jsx
-|   ├── assets
+|   ├── readme_assets
 |   ├── components
 |   ├── hooks
 |   ├── store
@@ -194,7 +194,7 @@ project: [https://github.com/Mark33Mark/TEMPLATE_storybook_react](https://github
 
 [git-repo-url]: https://github.com/Mark33Mark/TEMPLATE_storybook_react
 [the-mit-license]: https://mit-license.org/
-[watsonised-logo]: assets/watsonised_animated.svg
+[watsonised-logo]: readme_assets/watsonised_animated.svg
 [watsonised-url]: https://get.watsonised.me
 
 <!-- MARKDOWN LINKS & IMAGES -->
@@ -212,7 +212,7 @@ project: [https://github.com/Mark33Mark/TEMPLATE_storybook_react](https://github
 [license-url]: https://github.com/Mark33Mark/TEMPLATE_storybook_react/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/mark-watsonised/
-[product-screenshot]: assets/storybk_netlify_app_tutorial-tasksdashboard--docs.webp
+[product-screenshot]: readme_assets/storybk_netlify_app_tutorial-tasksdashboard--docs.webp
 
 <!-- Shields.io badges. A comprehensive list with many more badges is at: https://github.com/inttter/md-badges -->
 <!-- API Development -->
