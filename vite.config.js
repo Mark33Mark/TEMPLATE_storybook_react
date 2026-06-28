@@ -10,6 +10,20 @@ const dirname = typeof __dirname !== 'undefined' ? __dirname : path.dirname(file
 
 export default defineConfig({
     plugins: [react()],
+    server: {
+        open: true,
+        port: 3333,
+        allowedHosts: ['.watsonised.me'],
+        watch: {
+            ignored: [
+                '**/node_modules/**', 
+                '**/.git/**',
+                '**/dist/**',
+                '**/.storybook/**',
+                '**/storybook-static/**',
+            ],
+        },
+    },
     test: {
         projects: [
             {
