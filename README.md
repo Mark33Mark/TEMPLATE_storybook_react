@@ -15,7 +15,7 @@
     <img src="readme_assets/generic_animated.svg" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">Storybook with React framework/h3>
+<h3 align="center">Storybook with React framework</h3>
 
   <p align="center">
     For use as a template for future component libraries and / or continuing as a component testing library  
