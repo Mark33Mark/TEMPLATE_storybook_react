@@ -29,9 +29,9 @@ export default defineConfig({
             {
                 extends: true,
                 plugins: [
-                    // See options at: https://storybook.js.org/docs/next/writing-tests/integrations/vitest-addon#storybooktest
                     storybookTest({
                         configDir: path.join(dirname, '.storybook'),
+                        storybookUrl: 'https://6006.watsonised.me', // force Playwright to test against the Nginx proxy URL
                     }),
                 ],
                 test: {
@@ -46,7 +46,6 @@ export default defineConfig({
                             },
                         ],
                     },
-                    setupFiles: ['.storybook/vitest.setup.js'],
                 },
             },
         ],

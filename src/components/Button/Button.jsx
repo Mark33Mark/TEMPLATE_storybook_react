@@ -1,5 +1,3 @@
-
-/** Primary UI component for user interaction */
 export const Button = (props) => {
 
     const {primary = false, active = true, size = 'medium', backgroundColor, label, ...htmlAttributes} = props;
