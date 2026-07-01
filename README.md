@@ -61,7 +61,7 @@
 
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Netlify Deployed Page][product-screenshot]](https://storybk.netlify.app)
 
 A Storybook component library using the React framework, a rework of [Storybook's introductory tutorial](https://storybook.js.org/tutorials/intro-to-storybook/react/en/get-started/), created as a raw javascript implementation.
 
@@ -96,7 +96,6 @@ A Storybook component library using the React framework, a rework of [Storybook'
 |   └── mockServiceWorker.js
 ├── src
 |   ├── Main.jsx
-|   ├── readme_assets
 |   ├── components
 |   ├── hooks
 |   ├── store
@@ -106,6 +105,7 @@ A Storybook component library using the React framework, a rework of [Storybook'
 |   ├── manager.js
 |   ├── preview.js
 |   └── vitest.setup.js
+├── readme_assets
 └── vite.config.js
 
 ```
@@ -141,7 +141,7 @@ _For more examples, please refer to [Storybook's documentation](https://storyboo
 
 ## Roadmap
 
-- [ ] create a SolidJS storybook
+- [x] create a SolidJS storybook
 - [ ] add more components to this Storybook
 
 See the [open issues](https://github.com/Mark33Mark/TEMPLATE_storybook_react/issues) for a full list of proposed features (and known issues).

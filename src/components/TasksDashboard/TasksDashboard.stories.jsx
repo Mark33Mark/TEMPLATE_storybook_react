@@ -14,7 +14,8 @@ const meta = {
             handlers: [
                 http.get('https://jsonplaceholder.typicode.com/todos', () => {
                     // It doesn't matter what we return here because the Redux middleware
-                    // drops the action anyway. This just satisfies MSW so it doesn't warn.
+                    // drops the action anyway. This just satisfies MSW so it doesn't 
+                    // log a warning.
                     return HttpResponse.json([]);
                 }),
             ],

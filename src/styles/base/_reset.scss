@@ -100,7 +100,7 @@ h6 {
 	text-wrap: balance;
 }
 p {
-	text-wrap: pretty;
+	text-wrap: wrap;
 }
 
 /* 8. Media elements: Responsive and block-level */
@@ -161,4 +161,16 @@ h4,
 h5,
 h6 {
 	overflow-wrap: break-word;
+}
+
+/* apply 'pretty' to browsers that actually support it - Chrome and Safari 
+ * Chromium browsers (Chrome, Edge) and Safari support pretty (which prevents 
+ * orphans at the end of paragraphs), but because Firefox fails to parse this 
+ * specific value, it drops the entire declaration and throws that exact 
+ * console warning.
+ */
+@supports (text-wrap: pretty) {
+    p {
+        text-wrap: pretty;
+    }
 }

@@ -100,9 +100,9 @@ export const AllSizes = {
                     padding: '2rem',
                 }}
             >
-                <Button {...args} size='small' primary={true} />
-                <Button {...args} size='medium' primary={true} />
-                <Button {...args} size='large' primary={true} />
+                <Button {...args} size="small" primary={true} />
+                <Button {...args} size="medium" primary={true} />
+                <Button {...args} size="large" primary={true} />
             </div>
             <div
                 style={{
@@ -114,9 +114,9 @@ export const AllSizes = {
                     marginTop: '2rem',
                 }}
             >
-                <Button {...args} size='small' primary={false} />
-                <Button {...args} size='medium' primary={false} />
-                <Button {...args} size='large' primary={false} />
+                <Button {...args} size="small" primary={false} />
+                <Button {...args} size="medium" primary={false} />
+                <Button {...args} size="large" primary={false} />
             </div>
         </div>
     ),
@@ -149,9 +149,9 @@ export const AllSizesFocusVisibleState = {
                     padding: '2rem',
                 }}
             >
-                <Button {...args} size='small' primary={true} />
-                <Button {...args} size='medium' primary={true} />
-                <Button {...args} size='large' primary={true} />
+                <Button {...args} size="small" primary={true} />
+                <Button {...args} size="medium" primary={true} />
+                <Button {...args} size="large" primary={true} />
             </div>
             <div
                 style={{
@@ -163,9 +163,9 @@ export const AllSizesFocusVisibleState = {
                     marginTop: '2rem',
                 }}
             >
-                <Button {...args} size='small' primary={false} />
-                <Button {...args} size='medium' primary={false} />
-                <Button {...args} size='large' primary={false} />
+                <Button {...args} size="small" primary={false} />
+                <Button {...args} size="medium" primary={false} />
+                <Button {...args} size="large" primary={false} />
             </div>
         </div>
     ),
